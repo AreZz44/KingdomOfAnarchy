@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kingdom of Anarchy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Gaming Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/icon.ico"> 
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+</head>
+<body>
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">Kingdom<span> OF </span> Anarchy</a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Главная</a></li>
+										<li><a href="#about" class="scroll">О нас</a></li>
+										<li><a href="#gallery" class="scroll">Галерея</a></li>
+										<li><a href="#blog" class="scroll">Блог</a></li>
+									</ul>
+								</nav>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Вступайте в сражение!</h3>
+												<p> <div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Подробнее</a>
+												</div></p>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Создавайте кланы!</h3>
+												<p> <div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Подробнее</a>
+												</div></p>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Собирайте всех героев!</h3>
+												<p><div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Подробнее</a>
+												</div></p>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									$(function () {
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>Добро пожаловать</h2>
+				</div>
+			</div>
+			<div class="about-w3lsrow"> 
+				<div class="col-md-7 col-sm-7 w3about-img"> 
+					<div class="w3about-text"> 
+						<h5 class="w3l-subtitle">- Water Fox</h5>
+						<p>Начинающая компания с сфере развлечений, которая предоставляет услуги:</p>
+						<p>Текстовых онлайн-ролевых;</p>
+						<p>Создания и публикации арт-контента;</p>
+						<p>Подготовка и продажа игровых аккаунтов.</p>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Галерея</h3> 
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">Все</li>
+				<li class="w3layouts agileits" data-filter="1">Боссы</li>
+				<li class="w3layouts agileits" data-filter="2">Мини-Боссы</li>
+				<li class="w3layouts agileits" data-filter="3">Фишки</li>
+			</ul>
+			<div class="filtr-container w3layouts agileits">
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+					<a href="images/p1.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Кензо-Сан</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Luminous night">
+					<a href="images/p2.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p2.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Капитан Вискарэль</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1" data-sort="City wonders">
+					<a href="images/p3.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p3.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Графитто</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="In production">
+					<a href="images/p4.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p4.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Ночной ворон</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Industrial site">
+					<a href="images/p5.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p5.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Меха Рейдер</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Peaceful lake">
+					<a href="images/p6.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p6.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Металик</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="City lights">
+					<a href="images/p7.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p7.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Суккулент</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<a href="images/p8.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p8.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Малыш Дракон</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<a href="images/p9.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p9.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Страж Альфатрона</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title"> Kingdom <span>OF</span> Anarchy</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/1.jpg" alt="" />
+						<p>Мобильная игра, сочетающая в себе элементы жанров Tower defense и карточной игры. Она представляет из себя сражения с монстрами с использованием разных карт.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
+					<h3>Сведения о разработчиках</h3> 
+				</div>
+				<div class="w3-agile-testimonial">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider3">
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Главный разработчик</p>
+										<h5>t0xan</h5>
+										<h6>Частное лицо</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Владелец</p>
+										<h5>Water Fox</h5>
+										<h6>Компания</h6>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+									$(function () {
+									  $("#slider3").responsiveSlides({
+										auto: true,
+										pager:false,
+										nav:false,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="blog" class="blog">
+		<div class="container"> 
+			<div class="agileits-title">
+				<h3>Блог</h3>
+			</div> 
+			<div class="wthree-blog-grids">
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>08.06</h4>
+						<ul>
+							<li><a href="#">Администратор</a></li>
+							<li>Лайки : 31<li>
+							<li>Комментарии : (4)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Обновление 1.1</a>
+						<p>Проведена работа над исправлением частых вылетов во время игры.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>01.06</h4>
+						<ul>
+							<li><a href="#">Администратор</a></li>
+							<li>Лайки : 80<li>
+							<li>Комментарии : (8)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Обновление 1.0</a>
+						<p>Произведён редизайн игрового поля для большей оптимизации.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Связь с нами</h3>
+			</div> 
+			<div class="w3_mail_grids">
+				<form action="https://sendmail.w3layouts.com/submitForm" method="post">
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-10" name="w3lName" placeholder="Your Name" required=""/>
+						<label class="input__label input__label--jiro" for="input-10">
+							<span class="input__label-content input__label-content--jiro">Ваше Имя</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="email" id="input-11" name="w3lSender" placeholder="Your Email Address" required=""/>
+						<label class="input__label input__label--jiro" for="input-11">
+							<span class="input__label-content input__label-content--jiro">Email</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-12" name="w3lSubject" placeholder="Subject" required=""/>
+						<label class="input__label input__label--jiro" for="input-12">
+							<span class="input__label-content input__label-content--jiro">Тема</span>
+						</label>
+					</span>
+					<textarea name="w3lMessage" placeholder="Сообщение..." required=""></textarea>
+					<input type="submit" value="Отправить">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+	<script>
+			(function() {
+				if (!String.prototype.trim) {
+					(function() {
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+					
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3>Контакты</h3>
+					</div> 
+					<p>Связаться с нами можно по:</p>
+					<a href="https://mail.rambler.ru/compose">ixobnwhvdw@rambler.ru</a>
+					<a href="https://vk.com/kingdom_of_anarchy_officialgame">Группа Вконтакте</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+</body>	
+</html>
